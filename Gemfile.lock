@@ -187,8 +187,10 @@ GEM
     pry-coolline (0.2.5)
       coolline (~> 0.5)
     public_suffix (4.0.1)
-    puma (2.16.0)
-    puma (2.16.0-java)
+    puma (4.3.9)
+      nio4r (~> 2.0)
+    puma (4.3.9-java)
+      nio4r (~> 2.0)
     rack (2.0.7)
     rack-contrib (2.1.0)
       rack (~> 2.0)
@@ -306,7 +308,7 @@ DEPENDENCIES
   pg
   pry
   pry-coolline
-  puma (~> 2.16)
+  puma (~> 4.3)
   rails (~> 5.2.2, >= 5.2.2.1)
   rb-readline
   sass-rails (~> 5.0)
